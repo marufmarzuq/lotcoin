@@ -13,7 +13,3 @@ toggle.onclick = function () {
      toggle.classList.toggle('active');
      sidebar.classList.toggle('active');
 }
-
-document.addEventListener("contextmenu", function(e){
-     e.preventDefault();
- }, false);
